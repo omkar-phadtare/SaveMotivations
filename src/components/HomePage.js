@@ -145,7 +145,7 @@ const nameSet =()=>
   <div className="row gx-5">
     {allpostData.map(u => (
 				<div className='col-6' key={u.id}>
-				<Card userContent={u.content} postId={u.id} firstName={u.f_name}/>
+				<Card userContent={u.content} postId={u.id} firstName={u.f_name} date={u.date}/>
 				</div>
          	))	
 		}

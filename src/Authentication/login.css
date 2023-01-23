@@ -84,3 +84,12 @@ form{
 	text-decoration: none;
 	padding: 30px;
 }
+
+.google-btn{
+	cursor: pointer;
+	border-radius: 10px;
+}
+.google-btn:hover{
+	background-color: red;
+	color: white;
+}

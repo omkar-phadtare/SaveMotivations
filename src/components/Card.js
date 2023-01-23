@@ -53,6 +53,7 @@ export default function Card(props)
   <i className="fa fa-th-large mr-3 text-secondary fa-fw">"</i><h5 className="card-title">{props.userContent}</h5><i className="fa fa-th-large mr-3 text-primary fa-fw">"</i>
     
   </div>
+  <p>{props.data}</p>
 </div>
     </div>
   )

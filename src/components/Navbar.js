@@ -18,8 +18,7 @@ export default class Navbar extends Component {
 		  toggle: '',
 		  count:0,
 		  notch:'Close',
-		  name:"",
-		  emailId : ""
+		  name:""
 		};
 	  }
 
@@ -50,7 +49,7 @@ export default class Navbar extends Component {
   		<div className="py-4 px-3 mb-4 bg-dark">   		
       		<div className="media-body">
         		<h4 className="font-weight-white text-muted mb-0">PROFILE</h4>
-        		 <p className="font-weight-grey text-muted mb-0">{this.props.emailId}</p>
+        		 <p className="text-secondary">{this.props.emailId}</p>
 			</div>  		
   		</div>
   		<ul className="nav flex-column bg-dark mb-0">
@@ -89,10 +88,9 @@ export default class Navbar extends Component {
                 		Edit Profile
             		</Link>
     			</li>
-				<li className="nav-item nav-out">
+				<li className="nav-item nav-out" style={{cursor:"pointer"}}>
       				<p onClick={()=>auth.signOut()} className="nav-link text-light font-italic">
-                	<i className="fa fa-bar-chart mr-3 text-danger fa-fw">Sign Out</i>
-                		
+                	<i className="fa fa-bar-chart text-danger fa-fw" style={{cursor:"pointer"}}>Sign Out</i>
             		</p>
     			</li>
   			</ul>

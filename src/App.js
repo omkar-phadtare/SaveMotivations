@@ -7,6 +7,8 @@ import HomePage from './components/HomePage';
 import MainPage from './components/MainPage';
 import YourPost from './components/YourPost';
 import EditProfile from './components/EditProfile';
+import Service from './components/Service';
+
 import { UserAuthContextProvider, useUserAuth} from './context/AuthContext';
 //import Navbar from './components/Navbar';
 
@@ -31,6 +33,7 @@ function App() {
         <Route path='/' element={<MainPage/>}/>
         <Route path='/yourpost' element={<ProtectRoute><YourPost/></ProtectRoute>}/>
         <Route path='/edit' element={<EditProfile/>}/>
+        <Route path='/service' element={<Service/>}/>
       </Routes>
       </BrowserRouter>
 </UserAuthContextProvider>
