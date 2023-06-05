@@ -27,7 +27,7 @@ This project is subject to change by the developer and is still in development
 
 ## How to run this
 Running this is so simple.
-- [Just Click This Link](savemotivations.i) 
+- [Just Click This Link](https://savemotivation.web.app/) 
 
      
 ## Pull Request
